@@ -117,11 +117,11 @@ a {
     margin: 0;
 }
 .text-content span{
-    font-size: 40px;
+    font-size: 55px;
 }
 .content-main{
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 20px;
    
 }
@@ -151,7 +151,11 @@ a {
   font-weight: 600;
 }
 .edit{
-  line-height: 40px;
+  line-height: 60px;
+  
+}
+.end{
+  text-align: end;
 }
 .end-row{
   padding-bottom: 60px;
@@ -159,6 +163,9 @@ a {
 @media(max-width:600px){
     .hidden{
         display: none   
+    }
+    .end{
+      text-align: start;
     }
    body{
     padding-left: 0px;
